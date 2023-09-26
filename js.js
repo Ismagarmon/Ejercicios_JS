@@ -1,6 +1,8 @@
 window.onload = () => {
     let head = document.getElementsByTagName('h1')[0]
+
     console.log(head)
+
     let a = 'Hola'
 
     alert (`${a}, buenos días`)
@@ -13,6 +15,6 @@ window.onload = () => {
         }
     }
 
-    head.innerText = persona.Edad
+    head.innerText = persona.Edad 
 }
 
