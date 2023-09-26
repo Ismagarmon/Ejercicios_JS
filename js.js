@@ -1,11 +1,9 @@
 window.onload = () => {
     let head = document.getElementsByTagName('h1')[0]
-
+    console.log(head)
     let a = 'Hola'
 
     alert (`${a}, buenos días`)
-
-    console.log(head)
 
     persona = {
         "Nombre": "Pedro",
