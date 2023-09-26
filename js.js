@@ -1,5 +1,9 @@
-window.addEventListener('DOMContentLoaded', () => {
+window.onload = () => {
     let head = document.getElementsByTagName('h1')[0]
+
+    let a = 'Hola'
+
+    alert (`${a}, buenos días`)
 
     console.log(head)
 
@@ -11,6 +15,6 @@ window.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    head.innerText = persona.saludar()
+    head.innerText = persona.Edad
 }
-)
+
