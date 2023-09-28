@@ -8,8 +8,8 @@ window.onload = () => {
     alert(`${a}, buenos días`)
 
     persona = {
-        "Nombre": "Pedro",
-        "Edad": 21,
+        Nombre: "Pedro",
+        Edad: 21,
         saludar() {
             return "Hola, buenos dias fiera!"
         }
@@ -32,4 +32,17 @@ window.onload = () => {
     usuario.saludar()
     console.log(usuario.isFemale)
 }
+
+const createUser = (name,age,sex) => {
+    return {
+        name,
+        age,
+        sex
+    }
+}
+
+let user_1 = createUser("Ismael",23,"Male")
+
+console.log(user_1.name)
+
 
