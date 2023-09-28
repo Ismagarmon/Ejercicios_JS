@@ -18,3 +18,17 @@ window.onload = () => {
     head.innerText = persona.Edad 
 }
 
+let grado = 'grado superior en DAW';
+
+let usuario = {
+    Nombre : "Ismael",
+    Edad : 27,
+    saludar(){
+        console.log(`Buenos días. Tengo el ${grado}.` )
+    },
+    isMale : true,
+    isFemale : false
+}
+
+usuario.saludar()
+console.log(usuario.isFemale)
