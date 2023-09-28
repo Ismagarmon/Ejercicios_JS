@@ -5,7 +5,7 @@ window.onload = () => {
 
     let a = 'Hola'
 
-    alert (`${a}, buenos días`)
+    alert(`${a}, buenos días`)
 
     persona = {
         "Nombre": "Pedro",
@@ -15,20 +15,21 @@ window.onload = () => {
         }
     }
 
-    head.innerText = persona.Edad 
+    head.innerText = persona.Edad
+
+    let grado = 'grado superior en DAW';
+
+    let usuario = {
+        Nombre: "Ismael",
+        Edad: 27,
+        saludar() {
+            console.log(`Buenos días. Tengo el ${grado}.`)
+        },
+        isMale: true,
+        isFemale: false
+    }
+
+    usuario.saludar()
+    console.log(usuario.isFemale)
 }
 
-let grado = 'grado superior en DAW';
-
-let usuario = {
-    Nombre : "Ismael",
-    Edad : 27,
-    saludar(){
-        console.log(`Buenos días. Tengo el ${grado}.` )
-    },
-    isMale : true,
-    isFemale : false
-}
-
-usuario.saludar()
-console.log(usuario.isFemale)
